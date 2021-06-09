@@ -1,0 +1,22 @@
+name: "TheDoor Back"
+mode: "dev"
+port: 9200
+version: "v0.0.1"
+admin:
+  admin_name: "FFtp"
+  admin_passwd: "1234asdf"
+  img: "https://gitee.com/SunspotsInys/demo/raw/master/imGo/1685B4D357ACCF94.jpg"
+log:
+  level: "debug"
+  filename: "web_app.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "blog"
+  password: "12345678"
+  db_name: "blog"
+  max_open_conns: 200
+  max_idle_conns: 50
